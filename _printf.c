@@ -13,7 +13,7 @@
 int printIdentifiers(char next, va_list arg)
 {
 	int functsIndex;
-
+	
 	identifierStruct functs[] = {
 		{"c", print_char},
 		{"s", print_str},
@@ -27,7 +27,7 @@ int printIdentifiers(char next, va_list arg)
 		{"S", print_STR},
 		{NULL, NULL}
 	};
-
+	
 	for (functsIndex = 0; functs[functsIndex].indentifier != NULL; functsIndex++)
 	{
 		if (functs[functsIndex].indentifier[0] == next)
