@@ -6,6 +6,7 @@
 int _putchar(char c);
 int print_int(va_list arg);
 int print_unsigned(va_list arg);
+int percentage(__attribute__((unused))va_list param);
 int _printf(const char *format, ...);
 int printIdentifiers(char next, va_list arg);
 int print_char(va_list arg);
