@@ -25,6 +25,7 @@ int printIdentifiers(char next, va_list arg)
 		{"x", print_hex},
 		{"X", print_HEX},
 		{"S", print_STR},
+		{"%", percentage},
 		{NULL, NULL}
 	};
 
